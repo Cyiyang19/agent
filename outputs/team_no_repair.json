@@ -1,0 +1,43 @@
+{
+  "mode": "offline-replay / real AutoGen",
+  "status": "needs_help",
+  "stop_reason": "Maximum number of turns 8 reached.",
+  "messages": [
+    {
+      "source": "user",
+      "content": "Build an energy calculator; 1000 W for 2 h must equal 2 kWh."
+    },
+    {
+      "source": "ProductManager",
+      "content": "Need W*h/1000 in kWh; reject negative inputs."
+    },
+    {
+      "source": "Engineer",
+      "content": "{\"implementation\":\"buggy\"}"
+    },
+    {
+      "source": "CodeReviewer",
+      "content": "Check units and negative inputs; let QA execute checks."
+    },
+    {
+      "source": "QualityAssurance",
+      "content": "QA_FAIL: 1000 W x 2 h: expected 2 kWh, got 2000; 500 W x 3 h: expected 1.5 kWh, got 1500; negative input was not rejected; negative input was not rejected. Engineer: select a corrected implementation."
+    },
+    {
+      "source": "ProductManager",
+      "content": "Revise the candidate using the QA failure report."
+    },
+    {
+      "source": "Engineer",
+      "content": "{\"implementation\":\"buggy\"}"
+    },
+    {
+      "source": "CodeReviewer",
+      "content": "The QA result, not this review, determines success."
+    },
+    {
+      "source": "QualityAssurance",
+      "content": "QA_FAIL: 1000 W x 2 h: expected 2 kWh, got 2000; 500 W x 3 h: expected 1.5 kWh, got 1500; negative input was not rejected; negative input was not rejected. Engineer: select a corrected implementation."
+    }
+  ]
+}

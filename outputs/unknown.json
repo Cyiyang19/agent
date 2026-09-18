@@ -1,0 +1,23 @@
+{
+  "question": "tomorrow weather",
+  "search_query": "unknown",
+  "search_results": [],
+  "final_answer": "目前沒有可用的教材證據，無法回答；請檢查資料或工具。",
+  "citations": [],
+  "attempts": 2,
+  "min_sources": 2,
+  "max_retries": 1,
+  "scenario": "normal",
+  "status": "needs_help",
+  "feedback": "sources=0/2; attempts=2; status=needs_help",
+  "error": "",
+  "trace": [
+    "understand",
+    "search#1:hits=0",
+    "answer",
+    "reflect:retry",
+    "search#2:hits=0",
+    "answer",
+    "reflect:needs_help"
+  ]
+}

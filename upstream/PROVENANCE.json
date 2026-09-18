@@ -1,0 +1,18 @@
+{
+  "project": "Datawhale Hello-Agents",
+  "repository": "https://github.com/datawhalechina/hello-agents",
+  "upstream_commit": "b4aca1af44b7a492b4bfdec5aa100d556c65db54",
+  "retrieved_at": "2026-09-17T12:11:42.754Z",
+  "license": "CC BY-NC-SA 4.0",
+  "local_material_sha256": {
+    "Hello-Agents-V1.0.2-20260210.pdf": "4f5fc4279fca217fb4c96d698ed93700436d488fbf976bd211b3793f7a15e0ed",
+    "第六章 框架开发实践.md": "c64a45f38520d5e1de9896a344a0245e07de72144e60116766bea3b033cc205c"
+  },
+  "files": [
+    "code/chapter6/Langgraph/Dialogue_System.py",
+    "code/chapter6/AutoGenDemo/autogen_software_team.py",
+    "code/chapter6/AgentScopeDemo/requirements.txt",
+    "code/chapter6/CAMEL/requirements.txt"
+  ],
+  "note": "Upstream GitHub snapshot is not asserted to be the exact PDF release commit. Local chapter-six Markdown is the teaching scope."
+}

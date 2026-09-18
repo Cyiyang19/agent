@@ -1,0 +1,75 @@
+{
+  "verified_at_utc": "2026-09-18T04:33:25.868057+00:00",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "mode": "offline; real framework execution; no LLM inference",
+  "packages": {
+    "langgraph": "1.2.11",
+    "autogen-agentchat": "0.7.4",
+    "autogen-ext": "0.7.4",
+    "pytest": "9.1.1"
+  },
+  "checks": [
+    {
+      "name": "pip_check",
+      "pass": true
+    },
+    {
+      "name": "pytest",
+      "pass": true
+    },
+    {
+      "name": "baseline",
+      "pass": true,
+      "status": "unreviewed",
+      "attempts": 1
+    },
+    {
+      "name": "reflection",
+      "pass": true,
+      "status": "pass",
+      "attempts": 2
+    },
+    {
+      "name": "transient",
+      "pass": true,
+      "status": "pass",
+      "attempts": 2
+    },
+    {
+      "name": "failure",
+      "pass": true,
+      "status": "needs_help",
+      "attempts": 2
+    },
+    {
+      "name": "unknown",
+      "pass": true,
+      "status": "needs_help",
+      "attempts": 2
+    },
+    {
+      "name": "no_retry",
+      "pass": true,
+      "status": "needs_help",
+      "attempts": 1
+    },
+    {
+      "name": "strict",
+      "pass": true,
+      "status": "needs_help",
+      "attempts": 2
+    },
+    {
+      "name": "team",
+      "pass": true,
+      "status": "pass"
+    },
+    {
+      "name": "team_no_repair",
+      "pass": true,
+      "status": "needs_help"
+    }
+  ],
+  "pass": true
+}

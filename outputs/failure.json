@@ -1,0 +1,23 @@
+{
+  "question": "LangGraph 的 State、Node、Edge 是什麼？",
+  "search_query": "langgraph",
+  "search_results": [],
+  "final_answer": "目前沒有可用的教材證據，無法回答；請檢查資料或工具。",
+  "citations": [],
+  "attempts": 2,
+  "min_sources": 2,
+  "max_retries": 1,
+  "scenario": "failure",
+  "status": "needs_help",
+  "feedback": "sources=0/2; attempts=2; status=needs_help",
+  "error": "InjectedSearchError",
+  "trace": [
+    "understand",
+    "search#1:error",
+    "answer",
+    "reflect:retry",
+    "search#2:error",
+    "answer",
+    "reflect:needs_help"
+  ]
+}

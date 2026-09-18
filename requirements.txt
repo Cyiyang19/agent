@@ -1,0 +1,4 @@
+langgraph==1.2.11
+autogen-agentchat==0.7.4
+autogen-ext==0.7.4
+pytest==9.1.1

@@ -1,0 +1,39 @@
+{
+  "question": "LangGraph 的 State、Node、Edge 是什麼？",
+  "search_query": "langgraph",
+  "search_results": [
+    {
+      "id": "ch6-state",
+      "topic": "langgraph",
+      "text": "State 是流程共用的資料。Node 讀取 State，完成工作後回傳要更新的欄位。",
+      "source": "Hello-Agents V1.0.2，第六章 6.5.1；本地 PDF 第 173–174 頁。"
+    },
+    {
+      "id": "ch6-edges",
+      "topic": "langgraph",
+      "text": "Edge 決定下一步去哪裡。Conditional Edge 可依狀態返回搜尋節點，形成有限次的修正循環。",
+      "source": "Hello-Agents V1.0.2，第六章 6.5.1 與習題 5；本地 PDF 第 174–175、181–182 頁。"
+    }
+  ],
+  "final_answer": "State 是流程共用的資料。Node 讀取 State，完成工作後回傳要更新的欄位。 [ch6-state]\nEdge 決定下一步去哪裡。Conditional Edge 可依狀態返回搜尋節點，形成有限次的修正循環。 [ch6-edges]",
+  "citations": [
+    "ch6-state",
+    "ch6-edges"
+  ],
+  "attempts": 2,
+  "min_sources": 3,
+  "max_retries": 1,
+  "scenario": "normal",
+  "status": "needs_help",
+  "feedback": "sources=2/3; attempts=2; status=needs_help",
+  "error": "",
+  "trace": [
+    "understand",
+    "search#1:hits=1",
+    "answer",
+    "reflect:retry",
+    "search#2:hits=2",
+    "answer",
+    "reflect:needs_help"
+  ]
+}
