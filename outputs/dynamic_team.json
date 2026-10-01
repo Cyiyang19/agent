@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "stop_reason": "Text 'TERMINATE' mentioned",
+  "messages": [
+    {
+      "source": "user",
+      "content": "Build an energy calculator."
+    },
+    {
+      "source": "ProductManager",
+      "content": "SPEC_APPROVED:v1; target: 1000 W x 2 h = 2 kWh."
+    },
+    {
+      "source": "Engineer",
+      "content": "{\"implementation\":\"buggy\",\"spec_version\":1}"
+    },
+    {
+      "source": "CodeReviewer",
+      "content": "REQUIREMENTS_CHANGED:v2; reject negative inputs. ProductManager must reapprove."
+    },
+    {
+      "source": "ProductManager",
+      "content": "SPEC_APPROVED:v2; target unchanged; reject negative inputs."
+    },
+    {
+      "source": "Engineer",
+      "content": "{\"implementation\":\"fixed\",\"spec_version\":2}"
+    },
+    {
+      "source": "CodeReviewer",
+      "content": "REVIEW_PASS:v2; send the candidate to QualityAssurance."
+    },
+    {
+      "source": "QualityAssurance",
+      "content": "QA_PASS: fixed; 5 executable checks passed. TERMINATE"
+    }
+  ],
+  "mode": "AutoGen SelectorGroupChat + deterministic selector + real QA"
+}
